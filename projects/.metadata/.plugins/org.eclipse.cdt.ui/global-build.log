@@ -1,0 +1,21 @@
+arm-none-eabi-gcc -o "401.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Amaged_samir\projects\401\STM32F401VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="401.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 401.elf
+ 
+arm-none-eabi-size   401.elf 
+arm-none-eabi-objdump -h -S  401.elf  > "401.list"
+   text	   data	    bss	    dec	    hex	filename
+    652	      8	   1568	   2228	    8b4	401.elf
+Finished building: default.size.stdout
+ 
+Finished building: 401.list
+ 
+
+15:58:37 Build Finished. 0 errors, 1 warnings. (took 1s.355ms)
+
+15:58:38 **** Incremental Build of configuration Release for project 401 ****
+make -j8 all 
+arm-none-eabi-size   401.elf 
+   text	   data	    bss	    dec	    hex	filename
+    652	      8	   1568	   2228	    8b4	401.elf
+Finished building: default.size.stdout
+ 
