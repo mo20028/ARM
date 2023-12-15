@@ -9,3 +9,9 @@ void setup() {
 void loop() {
     // Main loop code
 }
+
+```c++
+int main()
+{
+    cout<<"mohamed";
+}
