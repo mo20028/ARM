@@ -13,3 +13,12 @@ int main()
 }
 <button class="btn" data-clipboard-target="#code2">Copy code</button>
 
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
+<script>
+    new ClipboardJS('.btn');
+</script>
+
+
