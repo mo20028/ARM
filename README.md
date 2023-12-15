@@ -13,7 +13,7 @@ void loop() {
 
 now I will add some c++ code
 
-```c++
+// code sinpped 2
 int main()
 {
     cout<<"mohamed";
