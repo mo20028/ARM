@@ -9,6 +9,9 @@ void setup() {
 void loop() {
     // Main loop code
 }
+<button class="btn" data-clipboard-target="#code1">Copy code</button>
+
+
 
 
 now I will add some c++ code
