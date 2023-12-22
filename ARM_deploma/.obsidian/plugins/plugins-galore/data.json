@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "plugins-galore": {
+      "repo": {
+        "domain": "github.com",
+        "owner": "dylanpizzo",
+        "name": "obsidian-plugins-galore",
+        "url": "https://github.com/dylanpizzo/obsidian-plugins-galore",
+        "type": "github"
+      },
+      "version": "0.1.1"
+    },
+    "dynamic-rtl": {
+      "repo": {
+        "domain": "github.com",
+        "owner": "mwxgaf",
+        "name": "obsidian-dynamic-rtl",
+        "url": "https://github.com/mwxgaf/obsidian-dynamic-rtl/releases/tag/0.2.12",
+        "type": "github"
+      },
+      "version": "0.2.12"
+    }
+  }
+}

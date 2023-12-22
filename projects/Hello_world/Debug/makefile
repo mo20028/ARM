@@ -59,8 +59,8 @@ all: main-build
 main-build: Hello_world.elf secondary-outputs
 
 # Tool invocations
-Hello_world.elf Hello_world.map: $(OBJS) $(USER_OBJS) D:\Amaged_samir\projects\Hello_world\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Hello_world.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Amaged_samir\projects\Hello_world\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello_world.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Hello_world.elf Hello_world.map: $(OBJS) $(USER_OBJS) D:\Amaged_samir\my_work\projects\Hello_world\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Hello_world.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Amaged_samir\my_work\projects\Hello_world\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello_world.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

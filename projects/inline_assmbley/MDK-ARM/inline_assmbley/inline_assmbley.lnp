@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"inline_assmbley\startup_stm32f401xe.o"
+"inline_assmbley\main.o"
+"inline_assmbley\stm32f4xx_it.o"
+"inline_assmbley\stm32f4xx_hal_msp.o"
+"inline_assmbley\stm32f4xx_hal_tim.o"
+"inline_assmbley\stm32f4xx_hal_tim_ex.o"
+"inline_assmbley\stm32f4xx_hal_rcc.o"
+"inline_assmbley\stm32f4xx_hal_rcc_ex.o"
+"inline_assmbley\stm32f4xx_hal_flash.o"
+"inline_assmbley\stm32f4xx_hal_flash_ex.o"
+"inline_assmbley\stm32f4xx_hal_flash_ramfunc.o"
+"inline_assmbley\stm32f4xx_hal_gpio.o"
+"inline_assmbley\stm32f4xx_hal_dma_ex.o"
+"inline_assmbley\stm32f4xx_hal_dma.o"
+"inline_assmbley\stm32f4xx_hal_pwr.o"
+"inline_assmbley\stm32f4xx_hal_pwr_ex.o"
+"inline_assmbley\stm32f4xx_hal_cortex.o"
+"inline_assmbley\stm32f4xx_hal.o"
+"inline_assmbley\stm32f4xx_hal_exti.o"
+"inline_assmbley\system_stm32f4xx.o"
+--strict --scatter "inline_assmbley\inline_assmbley.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "inline_assmbley.map" -o inline_assmbley\inline_assmbley.axf

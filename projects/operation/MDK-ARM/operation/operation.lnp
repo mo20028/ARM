@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"operation\startup_stm32f401xe.o"
+"operation\main.o"
+"operation\stm32f4xx_it.o"
+"operation\stm32f4xx_hal_msp.o"
+"operation\stm32f4xx_hal_tim.o"
+"operation\stm32f4xx_hal_tim_ex.o"
+"operation\stm32f4xx_hal_rcc.o"
+"operation\stm32f4xx_hal_rcc_ex.o"
+"operation\stm32f4xx_hal_flash.o"
+"operation\stm32f4xx_hal_flash_ex.o"
+"operation\stm32f4xx_hal_flash_ramfunc.o"
+"operation\stm32f4xx_hal_gpio.o"
+"operation\stm32f4xx_hal_dma_ex.o"
+"operation\stm32f4xx_hal_dma.o"
+"operation\stm32f4xx_hal_pwr.o"
+"operation\stm32f4xx_hal_pwr_ex.o"
+"operation\stm32f4xx_hal_cortex.o"
+"operation\stm32f4xx_hal.o"
+"operation\stm32f4xx_hal_exti.o"
+"operation\system_stm32f4xx.o"
+--strict --scatter "operation\operation.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "operation.map" -o operation\operation.axf
