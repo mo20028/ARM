@@ -1,3 +1,4 @@
+#embedded #ARM 
 [[lecture]]
 [[Assignment]]
 [[projects]]
