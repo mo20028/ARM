@@ -6,3 +6,4 @@
 [[lecture_05]]
 [[lecture_06]]
 [[lecture 07]]
+[[lecture 08]]

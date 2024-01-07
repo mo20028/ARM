@@ -25,13 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture_04.md",
+                "file": "Arm_deploma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d68c2ce838750e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "713936155387397c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lecture 08.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture 07.md",
+                "file": "lecture 08.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture 07.md",
+                "file": "lecture 08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture 07.md"
+                "file": "lecture 08.md"
               }
             }
           }
@@ -159,14 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d27c49bb505aa281",
+  "active": "713936155387397c",
   "lastOpenFiles": [
-    "lecture_04.md",
+    "lecture.md",
+    "lecture 08.md",
+    "Arm_deploma.md",
     "lecture 07.md",
+    "lecture_04.md",
     "lecture_05.md",
     "lecture_06.md",
-    "lecture.md",
-    "Arm_deploma.md",
     "Wave Task.md",
     "footnotes.md",
     "Apologize.md",
